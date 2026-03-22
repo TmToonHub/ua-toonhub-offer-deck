@@ -13,8 +13,8 @@ const Footer = () => (
         </div>
 
         <div className="flex items-center gap-6 text-sm text-muted-foreground">
-          <a href="#benefits" className="hover:text-foreground transition-colors">Benefits</a>
-          <a href="#payouts" className="hover:text-foreground transition-colors">Payouts</a>
+          <a href="#benefits" className="hover:text-foreground transition-colors">Переваги</a>
+          <a href="#payouts" className="hover:text-foreground transition-colors">Виплати</a>
           <a
             href="https://t.me/TimAIex"
             target="_blank"
