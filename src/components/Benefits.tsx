@@ -4,23 +4,23 @@ import { Rocket, Clapperboard, Eye, ShieldCheck } from "lucide-react";
 const benefits = [
   {
     icon: Rocket,
-    title: "Fresh & Scalable Offer",
-    desc: "The market isn't saturated. We are just moving from exclusive in-house buying to a public CPA model—be among the first to scale.",
+    title: "Свіжий оффер з високим потенціалом",
+    desc: "Ринок ще не «віджатий» — Станьте першими, хто почне масштабуватися на оффері, який раніше був доступний лише нашій внутрішній медіабаїнг команді",
   },
   {
     icon: Clapperboard,
-    title: "In-house Production",
-    desc: "Direct ownership of all titles. We launch 2–3 new titles every month and add fresh episodes to existing ones. Continuous content updates expand your audience reach and boost conversion rates across all interests.",
+    title: "In-house продакшн повного циклу",
+    desc: "Постійний ріст бібліотеки: +3 нові тайтли та свіжі епізоди щомісяця для підтримки інтересу. Більше контенту — вищий CR, адже ми закриваємо потреби найрізноманітніших сегментів трафіку",
   },
   {
     icon: Eye,
-    title: "Superior Adult Realism",
-    desc: "Our art style stands out with realistic anatomy, lighting, and textures—far beyond standard \"cardboard\" anime. This significantly boosts CTR on your creatives.",
+    title: "Реалістична анатомія та топова графіка",
+    desc: "Це не черговий дешевий хентай, а якісний арт-продукт. Це суттєво підвищує CTR ваших рекламних креативів. Висока якість арту конвертується у дешевий та якісний клік",
   },
   {
     icon: ShieldCheck,
-    title: "White-Hat Ready",
-    desc: "We provide two types of assets: Explicit (18+) for adult networks and organic traffic, and Censored (Clean) fully compliant funnels for \"hard\" sources without risk of bans.",
+    title: "Рішення для White-Hat джерел",
+    desc: "Наявність як Explicit (18+), так і Censored контенту. Повна готовність до будь-якого джерела трафіку — від жорсткого адалту до «білих» мереж.",
   },
 ];
 
@@ -29,10 +29,10 @@ const Benefits = () => (
     <div className="container">
       <ScrollReveal className="text-center mb-16">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight mb-4">
-          Why Toon-Hub <span className="neon-text">Converts</span>
+          Секрет високої конверсії <span className="neon-text">Toon-Hub</span>
         </h2>
         <p className="text-muted-foreground max-w-lg mx-auto text-pretty">
-          Premium product with real retention — not another recycled offer.
+          Якісний продукт з високим утриманням користувачів, а не черговий ресейл-оффер
         </p>
       </ScrollReveal>
 
