@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 260 20% 6%;
+    --foreground: 0 0% 95%;
+
+    --card: 260 18% 10%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 260 18% 10%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 50 98% 64%;
+    --primary-foreground: 0 0% 5%;
+
+    --secondary: 260 15% 16%;
+    --secondary-foreground: 0 0% 90%;
+
+    --muted: 260 12% 14%;
+    --muted-foreground: 260 10% 55%;
+
+    --accent: 50 98% 70%;
+    --accent-foreground: 0 0% 5%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 260 15% 18%;
+    --input: 260 15% 18%;
+    --ring: 50 98% 64%;
+
+    --radius: 0.625rem;
+
+    --neon: 50 98% 64%;
+    --neon-glow: 50 98% 60%;
+    --surface-bright: 260 20% 12%;
+    --green: 145 70% 50%;
+    --green-foreground: 0 0% 100%;
+    --amber: 38 90% 55%;
+    --amber-foreground: 0 0% 10%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  .neon-text {
+    color: hsl(var(--neon));
+    text-shadow: 0 0 10px hsl(var(--neon) / 0.4), 0 0 40px hsl(var(--neon) / 0.15);
+  }
+  .neon-border {
+    border-color: hsl(var(--neon) / 0.4);
+    box-shadow: 0 0 15px hsl(var(--neon) / 0.1), inset 0 0 15px hsl(var(--neon) / 0.05);
+  }
+  .neon-glow-box {
+    box-shadow: 0 0 30px hsl(var(--neon) / 0.15), 0 0 60px hsl(var(--neon) / 0.05);
+  }
+  .glass {
+    background: hsl(var(--card) / 0.6);
+    backdrop-filter: blur(12px);
+  }
+}
